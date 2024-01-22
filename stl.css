@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(48, 42, 42);
+}
+
+.head{
+    display: flex;
+    
+    /* font-weight:900; */
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 18, 185);
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+#sec{
+    margin-left: 19px;
+    
+}
+#sec1{
+margin-left: 55%;
+
+
+}
+
+button{
+    color: rgb(214, 130, 33);
+}
+button:hover{
+    color: white;
+    background-color: rgb(76, 66, 66);
+    border-radius: 40px;
+}
+
+
+.pro{
+    margin-left: 10%;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+
+.wellcome{
+    color: rgb(105, 182, 182);
+    width: 270px;
+    height: 30px;
+
+    /* transform: translateX(300px);
+    transition-duration: 10s; */
+    position: relative;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move {
+    from {left: 0px;
+    color: rgb(210, 48, 48);}
+    to {left: 100%;
+    color: rgb(215, 215, 42);}
+}
+/*_____________________________________________________ */
+
+
+
+.line{
+    display: flex;
+    gap: 20px;
+    margin-left: 40%;
+    margin-top: 50px;
+    font-size: large;
+}
+
+#demo{
+    width: 300px;
+    height: 200px;
+    color: rgb(231, 143, 55);
+    font-size: large;
+    margin-left: 80px;
+}
+
+
+#email{
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: rgb(124, 39, 39);
+}
+
+#copy{
+    margin-left: 50%;
+}
